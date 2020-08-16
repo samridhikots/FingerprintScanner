@@ -59,18 +59,18 @@ public class FingerprintHandler extends FingerprintManager.AuthenticationCallbac
 
     private void update(String s, boolean b) {
 
-        TextView paraLabel = (TextView) ((Activity)context).findViewById(R.id.textViewLabel);
+        TextView textViewLabel = (TextView) ((Activity)context).findViewById(R.id.textViewLabel);
         ImageView imageView = (ImageView) ((Activity)context).findViewById(R.id.fingerprintImage);
 
-        paraLabel.setText(s);
+        textViewLabel.setText(s);
 
         if(b == false){
 
-            paraLabel.setTextColor(ContextCompat.getColor(context, R.color.colorAccent));
+            textViewLabel.setTextColor(ContextCompat.getColor(context, R.color.colorAccent));
 
         } else {
 
-            paraLabel.setTextColor(ContextCompat.getColor(context, R.color.colorPrimary));
+            textViewLabel.setTextColor(ContextCompat.getColor(context, R.color.colorPrimary));
             imageView.setImageResource(R.mipmap.action_done);
 
         }
