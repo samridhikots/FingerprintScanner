@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FingerprintAuthApp</string>
+    <string name="fingerprint_authentication">Fingerprint Authentication</string>
+    <string name="place_your_finger_on_the_scanner_to_proceed">Place your Finger on the Scanner to Proceed</string>
+</resources>
